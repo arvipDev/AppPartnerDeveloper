@@ -11,6 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
@@ -20,12 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".chat.ChatActivity" />
+
         <activity
             android:name=".animation.AnimationActivity" />
+
         <activity
             android:name=".login.LoginActivity" />
+
     </application>
 
 </manifest>
